@@ -1,7 +1,7 @@
 context("matrix 2x2")
 
 m <- matrix(1:4, nrow = 2, ncol = 2)
-m2 <- matrix(c(1,3,7,9), nrow = 2, ncol = 2)
+m2 <- matrix(c(0, 5, 9, 66), nrow = 2, ncol = 2)
 
 mInv <- solve(m)
 m2Inv <- solve(m2)
